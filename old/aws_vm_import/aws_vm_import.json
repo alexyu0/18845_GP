@@ -1,0 +1,10 @@
+[
+    {
+        "Description": "test vbox",
+        "Format": "OVA",
+        "UserBucket": {
+            "S3Bucket": "845-gp",
+            "S3Key": "test_ova.ova"
+        }
+    }
+]

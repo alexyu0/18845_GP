@@ -1,0 +1,85 @@
+Vagrant.configure("2") do |config|
+    config.vm.define "general" do |general| 
+        general.vm.box = "ubuntu/xenial64"
+        general.vm.hostname = "test-box"
+        general.ssh.forward_agent = true
+
+        # configure VM resource settings
+        general.vm.provider "virtualbox" do |vbox|
+            vbox.name = "test-box"
+            vbox.memory = 4096
+            vbox.cpus = 2
+            vbox.customize ["modifyvm", :id, "--uartmode1", "disconnected"]
+        end
+        general.disksize.size = "10GB"
+        
+        # configure other VM settings, such as synced folders and networking
+        general.vm.network :forwarded_port, 
+            guest: 80, 
+            host: 8000, 
+            auto_correct: true
+        
+        if Vagrant.has_plugin?("vagrant-cachier")
+            general.cache.scope = :box
+            general.cache.enable :apt
+        end
+
+        general.vm.provision :shell, path: "scripts/general_setup", privileged: false
+    end
+
+    config.vm.define "ycsb" do |ycsb| 
+        ycsb.vm.box = "alexyu0/ycsb_redis"
+        ycsb.vm.hostname = "test-box-ycsb"
+        ycsb.ssh.forward_agent = true
+
+        # configure VM resource settings
+        ycsb.vm.provider "virtualbox" do |vbox|
+            vbox.name = "test-box-ycsb"
+            vbox.memory = 4096
+            vbox.cpus = 2
+            vbox.customize ["modifyvm", :id, "--uartmode1", "disconnected"]
+        end
+        ycsb.disksize.size = "10GB"
+        
+        # configure other VM settings, such as synced folders and networking
+        ycsb.vm.network :forwarded_port, 
+            guest: 80, 
+            host: 8000, 
+            auto_correct: true
+        
+        if Vagrant.has_plugin?("vagrant-cachier")
+            ycsb.cache.scope = :box
+            ycsb.cache.enable :apt
+        end
+
+        #ycsb.vm.provision :shell, path: "scripts/Vagrant_virtualbox", privileged: false
+    end
+    
+    config.vm.define "linpack" do |linpack| 
+        linpack.vm.box = "alexyu0/mkl_linpack"
+        linpack.vm.hostname = "test-box-linpack"
+        linpack.ssh.forward_agent = true
+
+        # configure VM resource settings
+        linpack.vm.provider "virtualbox" do |vbox|
+            vbox.name = "test-box-linpack"
+            vbox.memory = 4096
+            vbox.cpus = 2
+            vbox.customize ["modifyvm", :id, "--uartmode1", "disconnected"]
+        end
+        linpack.disksize.size = "10GB"
+        
+        # configure other VM settings, such as synced folders and networking
+        linpack.vm.network :forwarded_port, 
+            guest: 80, 
+            host: 8000, 
+            auto_correct: true
+        
+        if Vagrant.has_plugin?("vagrant-cachier")
+            linpack.cache.scope = :box
+            linpack.cache.enable :apt
+        end
+
+        #linpack.vm.provision :shell, path: "scripts/Vagrant_virtualbox", privileged: false
+    end
+end

@@ -1,0 +1,90 @@
+\begin{thebibliography}{10}
+
+\bibitem{docker}
+Docker.
+\newblock https://www.docker.com/community-edition.
+\newblock Accessed: 2018-03.
+
+\bibitem{felter:git}
+An updated performance comparison of virtual machines and linux containers
+  source code.
+\newblock \url{https://github.com/thewmf/kvm-docker-comparison}.
+\newblock Accessed: 2018-04.
+
+\bibitem{felter:2014}
+W.~Felter, A.~Ferreira, R.~Rajamony, and J.~Rubio.
+\newblock An updated performance comparison of virtual machines and linux
+  containers.
+\newblock In {\em 2015 IEEE International Symposium on Performance Analysis of
+  Systems and Software (ISPASS)}, pages 171--172, March 2015.
+
+\bibitem{hpcchallenge}
+An updated performance comparison of virtual machines and linux containers
+  source code.
+\newblock https://github.com/thewmf/kvm-docker-comparison.
+\newblock Accessed: 2018-04.
+
+\bibitem{joy:2015}
+A.~M. Joy.
+\newblock Performance comparison between linux containers and virtual machines.
+\newblock In {\em 2015 International Conference on Advances in Computer
+  Engineering and Applications}, pages 342--346, March 2015.
+
+\bibitem{li:2015}
+W.~Li and A.~Kanso.
+\newblock Comparing containers versus virtual machines for achieving high
+  availability.
+\newblock In {\em 2015 IEEE International Conference on Cloud Engineering},
+  pages 353--358, March 2015.
+
+\bibitem{enwik}
+M.~Mahoney.
+\newblock enwik9 - about the test data.
+\newblock http://mattmahoney.net/dc/textdata.html.
+\newblock Accessed: 2018-04.
+
+\bibitem{morabito:2015}
+R.~Morabito, J.~Kjällman, and M.~Komu.
+\newblock Hypervisors vs. lightweight virtualization: A performance comparison.
+\newblock In {\em 2015 IEEE International Conference on Cloud Engineering},
+  pages 386--393, March 2015.
+
+\bibitem{pahl:2015}
+C.~Pahl and B.~Lee.
+\newblock Containers and clusters for edge cloud architectures -- a technology
+  review.
+\newblock In {\em 2015 3rd International Conference on Future Internet of
+  Things and Cloud}, pages 379--386, Aug 2015.
+
+\bibitem{pxz}
+Pxz - parallel lzma compressor.
+\newblock https://jnovy.fedorapeople.org/pxz/.
+\newblock Accessed: 2018-04.
+
+\bibitem{sharma:2016}
+P.~Sharma, L.~Chaufournier, P.~Shenoy, and Y.~C. Tay.
+\newblock Containers and virtual machines at scale: A comparative study.
+\newblock In {\em Proceedings of the 17th International Middleware Conference},
+  Middleware '16, pages 1:1--1:13, New York, NY, USA, 2016. ACM.
+
+\bibitem{sysbench:wiki}
+Sysbench.
+\newblock https://github.com/akopytov/sysbench.
+\newblock Accessed: 2018-04.
+
+\bibitem{vagrant}
+Vagrant.
+\newblock https://www.vagrantup.com/.
+\newblock Accessed: 2018-03.
+
+\bibitem{virtualbox}
+Virtualbox.
+\newblock https://www.virtualbox.org/.
+\newblock Accessed: 2018-03.
+
+\bibitem{ycsb:wiki}
+Yahoo! cloud serving benchmark (ycsb) wiki.
+\newblock https://github.com/brianfrankcooper/YCSB/wiki.
+\newblock Accessed: 2018-04.
+
+\end{thebibliography}

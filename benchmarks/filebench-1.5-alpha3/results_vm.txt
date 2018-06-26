@@ -1,0 +1,201 @@
+Filebench Version 1.5-alpha3
+0.000: Allocated 173MB of shared memory
+0.001: Random RW Version 3.0 personality successfully loaded
+0.001: Populating and pre-allocating filesets
+0.001: Removing largefile1 tree (if exists)
+0.002: Pre-allocating directories in largefile1 tree
+0.002: Pre-allocating files in largefile1 tree
+3.706: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
+3.706: Population and pre-allocation of filesets completed
+3.706: Starting 1 rand-rw instances
+4.820: Running...
+Filebench Version 1.5-alpha3
+0.000: Allocated 173MB of shared memory
+0.001: Random RW Version 3.0 personality successfully loaded
+0.001: Populating and pre-allocating filesets
+0.018: Removing largefile1 tree (if exists)
+0.414: Pre-allocating directories in largefile1 tree
+0.414: Pre-allocating files in largefile1 tree
+3.386: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
+3.386: Population and pre-allocation of filesets completed
+3.386: Starting 1 rand-rw instances
+4.442: Running...
+64.478: Run took 60 seconds...
+64.505: Per-Operation Breakdown
+rand-write1          4197655ops    69907ops/s 546.1mb/s      0.0ms/op [0.00ms - 287.02ms]
+rand-read1           471227ops     7848ops/s  61.3mb/s      0.1ms/op [0.00ms - 779.15ms]
+64.505: IO Summary: 4668882 ops 77754.332 ops/s 7848/69907 rd/wr 607.5mb/s   0.0ms/op
+64.505: Shutting down processes
+
+
+Filebench Version 1.5-alpha3
+0.000: Allocated 173MB of shared memory
+0.017: Random RW Version 3.0 personality successfully loaded
+0.017: Populating and pre-allocating filesets
+0.035: Removing largefile1 tree (if exists)
+0.612: Pre-allocating directories in largefile1 tree
+0.612: Pre-allocating files in largefile1 tree
+3.139: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
+3.139: Population and pre-allocation of filesets completed
+3.139: Starting 1 rand-rw instances
+4.245: Running...
+64.274: Run took 60 seconds...
+64.296: Per-Operation Breakdown
+rand-write1          4278119ops    71250ops/s 556.6mb/s      0.0ms/op [0.00ms - 387.51ms]
+rand-read1           522959ops     8710ops/s  68.0mb/s      0.1ms/op [0.00ms - 444.16ms]
+64.296: IO Summary: 4801078 ops 79959.884 ops/s 8710/71250 rd/wr 624.7mb/s   0.0ms/op
+64.296: Shutting down processes
+
+
+Filebench Version 1.5-alpha3
+0.000: Allocated 173MB of shared memory
+0.016: Random RW Version 3.0 personality successfully loaded
+0.016: Populating and pre-allocating filesets
+0.025: Removing largefile1 tree (if exists)
+0.589: Pre-allocating directories in largefile1 tree
+0.589: Pre-allocating files in largefile1 tree
+3.984: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
+3.984: Population and pre-allocation of filesets completed
+3.984: Starting 1 rand-rw instances
+5.001: Running...
+65.027: Run took 60 seconds...
+65.263: Per-Operation Breakdown
+rand-write1          4360251ops    72375ops/s 565.4mb/s      0.0ms/op [0.00ms - 342.90ms]
+rand-read1           432781ops     7184ops/s  56.1mb/s      0.1ms/op [0.00ms - 527.87ms]
+65.263: IO Summary: 4793032 ops 79559.054 ops/s 7184/72375 rd/wr 621.6mb/s   0.0ms/op
+65.263: Shutting down processes
+
+
+Filebench Version 1.5-alpha3
+0.000: Allocated 173MB of shared memory
+0.015: Random RW Version 3.0 personality successfully loaded
+0.015: Populating and pre-allocating filesets
+0.033: Removing largefile1 tree (if exists)
+0.623: Pre-allocating directories in largefile1 tree
+0.623: Pre-allocating files in largefile1 tree
+4.012: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
+4.012: Population and pre-allocation of filesets completed
+4.012: Starting 1 rand-rw instances
+5.048: Running...
+65.068: Run took 60 seconds...
+65.086: Per-Operation Breakdown
+rand-write1          3826647ops    63744ops/s 498.0mb/s      0.0ms/op [0.00ms - 168.92ms]
+rand-read1           973108ops    16210ops/s 126.6mb/s      0.1ms/op [0.00ms - 132.32ms]
+65.086: IO Summary: 4799755 ops 79953.900 ops/s 16210/63744 rd/wr 624.6mb/s   0.0ms/op
+65.086: Shutting down processes
+
+
+Filebench Version 1.5-alpha3
+0.000: Allocated 173MB of shared memory
+0.022: Random RW Version 3.0 personality successfully loaded
+0.022: Populating and pre-allocating filesets
+0.024: Removing largefile1 tree (if exists)
+0.679: Pre-allocating directories in largefile1 tree
+0.679: Pre-allocating files in largefile1 tree
+3.727: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
+3.727: Population and pre-allocation of filesets completed
+3.727: Starting 1 rand-rw instances
+4.866: Running...
+64.889: Run took 60 seconds...
+64.918: Per-Operation Breakdown
+rand-write1          4299026ops    71594ops/s 559.3mb/s      0.0ms/op [0.00ms - 354.44ms]
+rand-read1           347175ops     5782ops/s  45.2mb/s      0.2ms/op [0.00ms - 559.36ms]
+64.918: IO Summary: 4646201 ops 77375.213 ops/s 5782/71594 rd/wr 604.5mb/s   0.0ms/op
+64.918: Shutting down processes
+
+
+Filebench Version 1.5-alpha3
+0.000: Allocated 173MB of shared memory
+0.020: Random RW Version 3.0 personality successfully loaded
+0.020: Populating and pre-allocating filesets
+0.046: Removing largefile1 tree (if exists)
+0.603: Pre-allocating directories in largefile1 tree
+0.603: Pre-allocating files in largefile1 tree
+3.876: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
+3.876: Population and pre-allocation of filesets completed
+3.878: Starting 1 rand-rw instances
+4.947: Running...
+64.986: Run took 60 seconds...
+65.464: Per-Operation Breakdown
+rand-write1          4330560ops    71582ops/s 559.2mb/s      0.0ms/op [0.00ms - 545.53ms]
+rand-read1           342069ops     5654ops/s  44.2mb/s      0.2ms/op [0.00ms - 917.41ms]
+65.464: IO Summary: 4672629 ops 77235.958 ops/s 5654/71582 rd/wr 603.4mb/s   0.0ms/op
+65.464: Shutting down processes
+
+
+Filebench Version 1.5-alpha3
+0.000: Allocated 173MB of shared memory
+0.021: Random RW Version 3.0 personality successfully loaded
+0.021: Populating and pre-allocating filesets
+0.023: Removing largefile1 tree (if exists)
+0.605: Pre-allocating directories in largefile1 tree
+0.605: Pre-allocating files in largefile1 tree
+3.797: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
+3.797: Population and pre-allocation of filesets completed
+3.797: Starting 1 rand-rw instances
+4.987: Running...
+65.014: Run took 60 seconds...
+65.038: Per-Operation Breakdown
+rand-write1          3279729ops    54624ops/s 426.7mb/s      0.0ms/op [0.00ms - 708.29ms]
+rand-read1           155996ops     2598ops/s  20.3mb/s      0.4ms/op [0.00ms - 1285.96ms]
+65.038: IO Summary: 3435725 ops 57222.130 ops/s 2598/54624 rd/wr 447.0mb/s   0.0ms/op
+65.038: Shutting down processes
+
+
+Filebench Version 1.5-alpha3
+0.000: Allocated 173MB of shared memory
+0.019: Random RW Version 3.0 personality successfully loaded
+0.019: Populating and pre-allocating filesets
+0.021: Removing largefile1 tree (if exists)
+0.681: Pre-allocating directories in largefile1 tree
+0.681: Pre-allocating files in largefile1 tree
+3.551: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
+3.551: Population and pre-allocation of filesets completed
+3.551: Starting 1 rand-rw instances
+4.730: Running...
+64.758: Run took 60 seconds...
+64.801: Per-Operation Breakdown
+rand-write1          4183767ops    69665ops/s 544.3mb/s      0.0ms/op [0.00ms - 386.44ms]
+rand-read1           211097ops     3515ops/s  27.5mb/s      0.3ms/op [0.00ms - 648.74ms]
+64.801: IO Summary: 4394864 ops 73179.677 ops/s 3515/69665 rd/wr 571.7mb/s   0.0ms/op
+64.801: Shutting down processes
+
+
+Filebench Version 1.5-alpha3
+0.000: Allocated 173MB of shared memory
+0.019: Random RW Version 3.0 personality successfully loaded
+0.019: Populating and pre-allocating filesets
+0.021: Removing largefile1 tree (if exists)
+0.572: Pre-allocating directories in largefile1 tree
+0.573: Pre-allocating files in largefile1 tree
+4.265: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
+4.265: Population and pre-allocation of filesets completed
+4.266: Starting 1 rand-rw instances
+5.419: Running...
+65.442: Run took 60 seconds...
+65.476: Per-Operation Breakdown
+rand-write1          3249295ops    54117ops/s 422.8mb/s      0.0ms/op [0.00ms - 966.42ms]
+rand-read1           205795ops     3428ops/s  26.8mb/s      0.3ms/op [0.00ms - 1159.17ms]
+65.476: IO Summary: 3455090 ops 57544.787 ops/s 3428/54117 rd/wr 449.6mb/s   0.0ms/op
+65.476: Shutting down processes
+
+
+Filebench Version 1.5-alpha3
+0.000: Allocated 173MB of shared memory
+0.017: Random RW Version 3.0 personality successfully loaded
+0.017: Populating and pre-allocating filesets
+0.019: Removing largefile1 tree (if exists)
+0.561: Pre-allocating directories in largefile1 tree
+0.561: Pre-allocating files in largefile1 tree
+3.721: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
+3.721: Population and pre-allocation of filesets completed
+3.721: Starting 1 rand-rw instances
+4.746: Running...
+64.801: Run took 60 seconds...
+65.024: Per-Operation Breakdown
+rand-write1          4084815ops    67788ops/s 529.6mb/s      0.0ms/op [0.00ms - 312.34ms]
+rand-read1           215291ops     3573ops/s  27.9mb/s      0.3ms/op [0.00ms - 642.40ms]
+65.024: IO Summary: 4300106 ops 71360.728 ops/s 3573/67788 rd/wr 557.5mb/s   0.0ms/op
+65.024: Shutting down processes
+
+

@@ -1,0 +1,13 @@
+####################################
+# run kernel compile benchmark
+####################################
+time make -j2
+
+####################################
+# other
+####################################
+use builtin redis-benchmark command configured as in repo
+consider how to use the multiprocessor version of stream
+
+figure out why STREAM ADD an TRIAD are faster on virtual environments
+rerun YCSB for VM b/c high stdev

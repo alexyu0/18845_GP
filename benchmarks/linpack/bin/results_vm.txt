@@ -1,0 +1,46 @@
+This is a SAMPLE run script for SMP LINPACK. Change it to reflect
+the correct number of CPUs/threads, problem input files, etc..
+Fri May  4 04:43:34 UTC 2018
+Intel(R) Optimized LINPACK Benchmark data
+
+Current date/time: Fri May  4 04:43:34 2018
+
+CPU frequency:    3.870 GHz
+Number of CPUs: 1
+Number of cores: 4
+Number of threads: 4
+
+Parameters are set to:
+
+Number of tests: 1
+Number of equations to solve (problem size) : 10000
+Leading dimension of array                  : 10000
+Number of trials to run                     : 10   
+Data alignment value (in Kbytes)            : 1    
+
+Maximum memory requested that can be used=800201024, at the size=10000
+
+=================== Timing linear equation system solver ===================
+
+Size   LDA    Align. Time(s)    GFlops   Residual     Residual(norm) Check
+10000  10000  1      7.027      94.8949  9.603002e-11 3.386116e-02   pass
+10000  10000  1      6.949      95.9662  9.603002e-11 3.386116e-02   pass
+10000  10000  1      6.961      95.7944  9.603002e-11 3.386116e-02   pass
+10000  10000  1      6.957      95.8573  9.603002e-11 3.386116e-02   pass
+10000  10000  1      6.953      95.9137  9.603002e-11 3.386116e-02   pass
+10000  10000  1      6.953      95.9165  9.603002e-11 3.386116e-02   pass
+10000  10000  1      7.233      92.2041  9.603002e-11 3.386116e-02   pass
+10000  10000  1      7.191      92.7314  9.603002e-11 3.386116e-02   pass
+10000  10000  1      7.267      91.7696  9.603002e-11 3.386116e-02   pass
+10000  10000  1      6.954      95.8952  9.603002e-11 3.386116e-02   pass
+
+Performance Summary (GFlops)
+
+Size   LDA    Align.  Average  Maximal
+10000  10000  1       94.6943  95.9662 
+
+Residual checks PASSED
+
+End of tests
+
+Done: Fri May  4 04:45:25 UTC 2018

@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ayu1_18845_GP_report.aux
+The style file: abbrv.bst
+Database file #1: GP_bibliography.bib
+You've used 15 entries,
+            2118 wiz_defined-function locations,
+            567 strings with 5602 characters,
+and the built_in function-call counts, 4388 in all, are:
+= -- 439
+> -- 112
+< -- 6
++ -- 52
+- -- 34
+* -- 211
+:= -- 590
+add.period$ -- 47
+call.type$ -- 15
+change.case$ -- 70
+chr.to.int$ -- 0
+cite$ -- 15
+duplicate$ -- 201
+empty$ -- 452
+format.name$ -- 34
+if$ -- 1045
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 6
+newline$ -- 79
+num.names$ -- 14
+pop$ -- 131
+preamble$ -- 1
+purify$ -- 55
+quote$ -- 0
+skip$ -- 173
+stack$ -- 0
+substring$ -- 253
+swap$ -- 74
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 60
+warning$ -- 0
+while$ -- 27
+width$ -- 17
+write$ -- 154

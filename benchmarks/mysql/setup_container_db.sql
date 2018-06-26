@@ -1,0 +1,4 @@
+CREATE DATABASE test;
+SET global max_connections=600;
+RESET QUERY CACHE;
+FLUSH QUERY CACHE;

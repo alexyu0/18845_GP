@@ -1,0 +1,95 @@
+##################
+ENVIRONMENT
+##################
+hardware platform (CHIMPS machine)
+ - CPU      4-core 8-thread, 3.40 GHz i7-4770 Intel(R) Core CPU
+ - Memory   16 GiB or 17.18 GB
+ - Disk     931 GiB (total), 7200 RPM
+ - OS       Ubuntu 16.04.4 (64 bit) with 4.13 Linux Kernel
+
+hardware platform (laptop)
+ - CPU      2-core 4-thread, 2.60 GHz i5-4288U Intel Core CPU
+ - Memory   16 GB
+ - Disk     499 GB
+ - OS       Mac OS X 10.12.6 (64 bit) with 16.7.0 Darwin Kernel
+
+software
+ - Vagrant version 2.0.3
+ - VirtualBox version 5.1.34
+ - Docker version 18.03.0-ce (API version 1.37)
+
+VM Setup
+ - VirtualBox
+    - CPU      2 cores
+    - Memory   4 GB
+    - Disk     10 GB
+    - OS       Ubuntu 16.04.4 (64 bit) with 4.13 Linux Kernel
+ - KVM
+    - Network   virtio
+
+container setup
+ - CPU      2 cores
+ - Memory   4 GB
+
+
+##################
+PXZ enwik9 RESULTS
+##################
+bare metal (CHIMPS machine)
+
+VM (on laptop)
+ - real    3m7.926s
+ - user    5m59.424s
+ - sys    0m1.192s
+
+
+##################
+STREAM UNIPROCESSOR RESULTS
+##################
+bare metal (CHIMPS machine)
+
+VM (on laptop)
+            ops/s       Avg (s)     Min (s)     Max (s)
+  - copy    12854.6     0.014627    0.012447    0.016023    
+  - scale   12310.4     0.015455    0.012997    0.018154
+  - add     14386.6     0.020428    0.016682    0.026540
+  - triad   14165.2     0.022094    0.016943    0.032482
+
+
+##################
+FILEBENCH RANDOMRW (60s) RESULTS
+##################
+bare metal (CHIMPS machine)
+
+VM (on laptop)
+                    # of ops    ops/s       mb/s    Latency
+  - rand-write1     1704557     28319       221.2   0.0 ms/op (0.00 - 362.88 ms) 
+  - rand-read1       128990      2143        16.7   0.5 ms/op (0.00 - 378.90 ms)
+  - overall         1833547     30462.006   238.0   0.1 ms/op
+
+
+##################
+YCSB REDIS workloada RESULTS
+##################
+bare metal (CHIMPS machine)
+
+VM (on laptop)
+            # ops   Avg (us)    Min (us)    Max (us)    95% (us)    99 (us)
+  - load    1000    324.421     93          12919       503         3399
+  - read    495     286.691     60          10215       488         3645
+  - write   505     250.048     62          6851        551         2403
+
+
+##################
+KERNEL-COMPILE RESULTS
+##################
+bare metal (CHIMPS machine)
+ - real    29m59.134s
+ - user    54m7.070s
+ - sys    5m50.913s
+
+VM
+
+container
+
+

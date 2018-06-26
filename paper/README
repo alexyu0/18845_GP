@@ -1,0 +1,15 @@
+18-845 Internet Services
+
+Example Latex file and style file in 10pt ACM format
+Use this for your GP reports
+
+To format example.tex and produce example.pdf:
+  linux> make clean
+  linux> make
+
+Files:
+  Makefile                     - Makefile that formats source file
+  example.tex                  - Source file
+  sig-alternate-10pt.cls       - Style file included in source file
+  fly.eps,flies.eps,rosette.ps - Included figures
+  sigproc.bib                  - Bib file of references
